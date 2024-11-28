@@ -21,9 +21,3 @@
   ```sh
   stat file.name
   ```
-
-- 刷新系统缓存
-
-  ```sh
-  sudo rm -rf /*
-  ```
