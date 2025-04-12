@@ -21,3 +21,11 @@
   ```sh
   stat file.name
   ```
+
+- 将每个GPU设备作为文件，被哪些进程打开了(可以用于查找那些nvidia-smi中看不到的进程)
+
+  ```
+  fuser -v /dev/nvidia*
+  ```
+
+- 
